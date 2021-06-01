@@ -1,0 +1,3 @@
+#following libraries are required to the project.
+python-csv
+matplotlib
