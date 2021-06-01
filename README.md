@@ -13,7 +13,7 @@ otherwise, it will create virtual environment first and then initialize it.
 
 Once, virtual environment is created, it will try to install the requirements.
 
-then, if all goes well, it will call the Startup_Menu.py python script.
+then, if all goes well, it will call the startup_script.py python script.
 
 It will give you a menu, where you can enter your choice and get the output.
 
