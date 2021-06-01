@@ -1,3 +1,5 @@
 deliveries.csv
 matches.csv
 umpires.csv
+__pycache__
+.vscode
