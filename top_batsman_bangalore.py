@@ -4,6 +4,11 @@ from collections import defaultdict as dd
 
 
 def read_team_data():
+    """
+    This function will try to read the data and only takes the one
+    with name Royal Challengers Bangalore into account.
+    Then it will return that data.
+    """
     teams = dd(int)
     for data in d:
         if data['batting_team'] == "Royal Challengers Bangalore":
@@ -12,6 +17,11 @@ def read_team_data():
 
 
 def plot_graph(teams):
+    """
+    This function is used to plot the graph. It only takes top 5 batsman.
+    It plots the socres made by plyers vs player.
+    It uses pyplot of matplotlib.
+    """
     scoring = sorted(list(teams.values()), reverse=True)[:6]
     players = []
     for number in range(0, 6):
