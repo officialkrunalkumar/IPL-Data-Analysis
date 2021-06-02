@@ -18,14 +18,13 @@ then, if all goes well, it will call the startup_script.py python script.
 It will give you a menu, where you can enter your choice and get the output.
 
 few things, about files...
-```
-1) rawdata.py :-  It is the base file which reads the data from csv using DictReader (Dictionary Reader).
-2) startup_script.py :- It will present Menu, and allow you to enter your choice.
-3) total_runs_scored_by_teams.py :- This file will draw a graph using pyplot runs made by team vs years in IPL.
-4) top_batsman_bangalore.py :- This will graph the players vs their scores from Royal Challengers Bangalore.
-5) foreign_umpire_analysis.py :- It will give the analytical graph which shows the analysis of foreign umpires.
-6) matches_per_year.py :- It graphs the number of matches played per year.
-7) matches.csv :- It contains the data of matches.
-8) deliveries.csv :- It contains the data of players and scores.
-9) umpires.csv :- It contains the umpire related data.
-```
+
+1) `rawdata.py` :-  It is the base file which reads the data from csv using DictReader (Dictionary Reader).
+2) `startup_script.py` :- It will present Menu, and allow you to enter your choice.
+3) `total_runs_scored_by_teams.py` :- This file will draw a graph using pyplot runs made by team vs years in IPL.
+4) `top_batsman_bangalore.py` :- This will graph the players vs their scores from Royal Challengers Bangalore.
+5) `foreign_umpire_analysis.py` :- It will give the analytical graph which shows the analysis of foreign umpires.
+6) `matches_per_year.py` :- It graphs the number of matches played per year.
+7) `matches.csv` :- It contains the data of matches.
+8) `deliveries.csv` :- It contains the data of players and scores.
+9) `umpires.csv` :- It contains the umpire related data.
