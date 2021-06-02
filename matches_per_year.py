@@ -4,6 +4,9 @@ from matplotlib import pyplot as p
 
 
 def matches_per_year():
+    """
+    This function try to calculates the number of matches per season.
+    """
     matches_played = {}
     for match in m:
         if match['season'] in matches_played:
@@ -15,6 +18,9 @@ def matches_per_year():
 
 
 def plot_graph(matches_played):
+    """
+    This function will plot the graph of matches played vs year.
+    """
     p.title("Number of Matches Played Per Year")
     p.xlabel("Y e a r s")
     p.ylabel("M a t c h e s")
