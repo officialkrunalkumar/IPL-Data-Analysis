@@ -5,6 +5,11 @@ from matplotlib import pyplot as p
 
 
 def read_umpire():
+    """
+    This function will ready the umpire data namely 1 and 2.
+    Then it will try to calculate number of foreign umpires.
+    Then it will return umpire data.
+    """
     umpire = dd(int)
     umpires_country = dd(int)
     for data in u:
@@ -19,6 +24,10 @@ def read_umpire():
 
 
 def plot_graph(umpire):
+    """
+    This function is used to plot the graph of countries vs umpire.
+    This uses pyplot of matplotlib for plotting.
+    """
     countries = list(umpire.keys())
     umpires = list(umpire.values())
     p.figure(figsize=(20, 20))
