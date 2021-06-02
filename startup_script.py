@@ -2,6 +2,11 @@ import os
 
 
 def menu():
+    """
+    This will create a menu based interface on command line.
+    It allows you to enter the choice of yours.
+    Then it will call the file accordingly.
+    """
     print("Welcome to the IPL Analysis and Story Telling Project")
     print("Please choose any one option at a time...")
     print("1. Total Runs scored by team")
