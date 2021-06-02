@@ -4,6 +4,9 @@ from matplotlib import pyplot as p
 
 
 def read_team_score():
+    """
+    This function will try to read the score made by team and return it.
+    """
     teams = dd(int)
     for data in d:
         teams[data["batting_team"]] += int(data["total_runs"])
@@ -11,6 +14,10 @@ def read_team_score():
 
 
 def plot_graph(teams):
+    """
+    This is going to plot the Total Runs Scored by Teams.
+    It uses pyplot of matplotlib.
+    """
     x = list(teams.keys())
     y = list(teams.values())
     p.figure(figsize=(15, 10))
