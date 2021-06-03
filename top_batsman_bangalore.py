@@ -18,13 +18,13 @@ def read_team_data():
 
 def plot_graph(teams):
     """
-    This function is used to plot the graph. It only takes top 5 batsman.
+    This function is used to plot the graph. It only takes top 10 batsman.
     It plots the socres made by plyers vs player.
     It uses pyplot of matplotlib.
     """
-    scoring = sorted(list(teams.values()), reverse=True)[:6]
+    scoring = sorted(list(teams.values()), reverse=True)[:10]
     players = []
-    for number in range(0, 6):
+    for number in range(0, 10):
         for data in teams.keys():
             if teams[data] == scoring[number]:
                 players.append(data)
