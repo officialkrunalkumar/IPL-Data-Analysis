@@ -13,6 +13,7 @@ def menu():
     print("2. Top Batsman for Royal Challengers Bangalore")
     print("3. Foreign Umpire Analysis")
     print("4. Number of Games Played per Year")
+    print("5. Stacked Chart of Number of games played by teams by seasons")
     choice = int(input("Enter your choice (1-4) :"))
     if choice == 1:
         os.system('python3 total_runs_scored_by_teams.py')
@@ -22,6 +23,8 @@ def menu():
         os.system('python3 foreign_umpire_analysis.py')
     elif choice == 4:
         os.system('python3 matches_per_year.py')
+    elif choice == 5:
+        os.system('python3 stacked_chart.py')
     else:
         print("")
         rechoice = ord(input("Wrong Choice! do you want to try again? (y/n)"))
