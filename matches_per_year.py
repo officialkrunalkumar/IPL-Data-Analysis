@@ -21,6 +21,7 @@ def plot_graph(matches_played):
     """
     This function will plot the graph of matches played vs year.
     """
+    p.figure(figsize=(20, 20))
     p.title("Number of Matches Played Per Year")
     p.xlabel("Y e a r s")
     p.ylabel("M a t c h e s")
