@@ -7,7 +7,7 @@ from matplotlib import pyplot as p
 def stacked_chart():
     """
     This function will calculate the number of matches played
-    by teams per season. Then using pyplot of matplotlib, it 
+    by teams per season. Then using pyplot of matplotlib, it
     will simply plot the stacked chart.
     """
     teams = dd(int)
