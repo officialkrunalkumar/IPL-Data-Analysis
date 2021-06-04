@@ -14,7 +14,7 @@ def menu():
     print("3. Foreign Umpire Analysis")
     print("4. Number of Games Played per Year")
     print("5. Stacked Chart of Number of games played by teams by seasons")
-    choice = int(input("Enter your choice (1-4) :"))
+    choice = int(input("Enter your choice (1-5) :"))
     if choice == 1:
         os.system('python3 total_runs_scored_by_teams.py')
     elif choice == 2:
