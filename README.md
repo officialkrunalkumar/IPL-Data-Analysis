@@ -2,6 +2,12 @@
 
 IPL Data collected from Kaggle and analysis is made using Python's functionality to create a story telling scenario.
 
+## Download the required csv file 
+
+Download csv files from below given link :
+
+[https://www.kaggle.com/manasgarg/ipl/version/5](https://www.kaggle.com/manasgarg/ipl/version/5)
+
 ### Mountblue's first project using python's matplotlib
 
 Run `Setup.sh` file to make the project RUN.
@@ -25,6 +31,7 @@ few things, about files...
 4) `top_batsman_bangalore.py` :- This will graph the players vs their scores from Royal Challengers Bangalore.
 5) `foreign_umpire_analysis.py` :- It will give the analytical graph which shows the analysis of foreign umpires.
 6) `matches_per_year.py` :- It graphs the number of matches played per year.
-7) `matches.csv` :- It contains the data of matches.
-8) `deliveries.csv` :- It contains the data of players and scores.
-9) `umpires.csv` :- It contains the umpire related data.
+7) `stacked_chart.py` :- It will plot the graph of number of games played by team by season.
+8) `matches.csv` :- It contains the data of matches.
+9) `deliveries.csv` :- It contains the data of players and scores.
+10) `umpires.csv` :- It contains the umpire related data.

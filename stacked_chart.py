@@ -5,6 +5,11 @@ from matplotlib import pyplot as p
 
 
 def stacked_chart():
+    """
+    This function will calculate the number of matches played
+    by teams per season. Then using pyplot of matplotlib, it 
+    will simply plot the stacked chart.
+    """
     teams = dd(int)
     for row in m:
         if row['season'] not in teams:
@@ -35,11 +40,11 @@ def stacked_chart():
             'mediumpurple', 'orange', 'cyan', 'lime',
             'yellow', 'gainsboro', 'violet', 'black']
     team_play_matches = []
-    for tm in team_names:
+    for team in team_names:
         team_play_match = []
-        for yr in seasons:
-            if yr in teams and tm in teams[yr]:
-                team_play_match.append(teams[yr][tm])
+        for year in seasons:
+            if year in teams and team in teams[year]:
+                team_play_match.append(teams[year][team])
             else:
                 team_play_match.append(0)
         team_play_matches.append(team_play_match)
